@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>parse-english</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body class="parse-english">
+        <header class="parse-english-heading">
+            <h1 class="parse-english-heading__header">parse-english
+                <a href="https://travis-ci.org/wooorm/parse-english">
+                    <img alt="Build Status" src="https://travis-ci.org/wooorm/parse-english.svg?branch=master">
+                </a><a href="https://coveralls.io/r/wooorm/parse-english?branch=master">
+                    <img alt="Coverage" src="https://img.shields.io/coveralls/wooorm/parse-english.svg">
+                </a><a href="http://opensource.org/licenses/MIT">
+                    <img alt="License"  src="http://img.shields.io/npm/l/parse-english.svg" style="max-width:100%;">
+                </a><a href="https://www.npmjs.org/package/parse-english">
+                    <img alt="Version"  src="http://img.shields.io/npm/v/parse-english.svg" style="max-width:100%;">
+                </a>
+            </h1>
+        </header>
+        <div class="parse-english-editor">
+            <textarea class="parse-english-editor__input" autofocus>The easiest way to see how parse-english tokenises and parses, is by using this online demo. Here you can change the text, and on the right the corresponding syntax tree will be shown.
+
+Just try it. It’s pretty cool :)</textarea>
+        </div>
+        <pre class="parse-english-output"><code class="parse-english-output__tree"></code></pre>
+        <script src="build/build.js"></script>
+    </body>
+</html>

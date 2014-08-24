@@ -1,0 +1,13 @@
+{
+  "name": "parse-english-gh-pages",
+  "version": "0.0.1",
+  "private": true,
+  "repository": "wooorm/parse-english-gh-pages",
+  "dependencies": {
+    "wooorm/parse-english": "^0.1.1"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
