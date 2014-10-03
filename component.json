@@ -4,7 +4,8 @@
   "private": true,
   "repository": "wooorm/parse-english-gh-pages",
   "dependencies": {
-    "wooorm/parse-english": "^0.1.2"
+    "wooorm/parse-english": "^0.2.0-rc.1",
+    "wooorm/nlcst-to-string": "0.0.1"
   },
   "scripts": [
     "index.js"
