@@ -4,7 +4,7 @@
   "private": true,
   "repository": "wooorm/parse-english-gh-pages",
   "dependencies": {
-    "wooorm/parse-english": "^0.3.0-rc.1"
+    "wooorm/parse-english": "^0.3.0"
   },
   "scripts": [
     "index.js"
