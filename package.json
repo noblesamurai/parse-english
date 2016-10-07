@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "nlcst-to-string": "^2.0.0",
-    "parse-latin": "^3.1.0",
+    "parse-latin": "https://github.com/timlesallen/parse-latin.git#68cec06c43475f55be9bb3a27c2ad6a08f3e7dae",
     "unist-util-modify-children": "^1.0.0",
     "unist-util-visit-children": "^1.0.0"
   },
